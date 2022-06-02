@@ -32,3 +32,5 @@
 ![DB_IMDB_clone](https://user-images.githubusercontent.com/72777496/171546204-596763a8-b8fe-43e6-993c-0f99fca5cadc.png)</br>
 
 <h1>Requests using postman</h1>
+
+<a>https://www.postman.com/orange-water-704100/workspace/dot-laravel-projects/collection/17535083-3320dd50-283f-4c75-a1c6-e1f314147178?ctx=documentation</a>
