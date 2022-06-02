@@ -7,7 +7,13 @@
 <p>
     In this project I tried to create my own version of IMDB server side
 </br>
-    For now, the feature of this project are Movies CRUD(I made the content of it as similar as the original IMDB site, you can also post the poster of the movie, images are stored in public/images/), User Authentication and Authorization using JWT(*Note this JWT is not the original Tymon JWT, I'm using the php-open-source that's compatible with laravel 9*), You're able to add favorites for a certain User.
+    For now, the feature of this project are Movies CRUD(I made the content of it as similar as the original IMDB site, you can also post the poster of the movie, images are stored in public/images/), User Authentication and Authorization using JWT(*Note this JWT is not the original Tymon JWT, I'm using the php-open-source that's compatible with laravel 9*), You're able to add favorites for a certain User.</br>
+
+<ul>
+    Notes: 
+   <li>Images are nullable by default</li> 
+</ul>
+
 </p>
 
 <h1>Soon to be added feature</h1>
