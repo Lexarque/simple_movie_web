@@ -2,4 +2,10 @@
 
 </hr>
 
-<p>this is something</p>
+<h1>Simple IMDB Clone</h1>
+
+<p>DB Design</p></br>
+
+![DB_IMDB_clone](https://user-images.githubusercontent.com/72777496/171546204-596763a8-b8fe-43e6-993c-0f99fca5cadc.png)
+
+<p></p>
