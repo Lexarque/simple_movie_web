@@ -17,7 +17,11 @@ class MoviesFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'title' => $this->faker->sentence(3, true),
+            'description' => $this->faker->text(50),
+            'director' => $this->faker->firstName(),
+            'rating' => $this->faker->randomFloat(1, 1, 10),
+            'trailer_link' => $this->faker->url(),
         ];
     }
 }

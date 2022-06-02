@@ -17,7 +17,8 @@ class FavoriteFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'id_movie' => $this->faker->numberBetween(5, 25),
+            'id_user' => $this->faker->numberBetween(5, 25),
         ];
     }
 }
