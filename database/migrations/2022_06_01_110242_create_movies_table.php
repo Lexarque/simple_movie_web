@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('director');
             $table->float('rating');
             $table->string('trailer_link');
-            $table->string('image')->default(null);
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }
