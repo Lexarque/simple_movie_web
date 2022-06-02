@@ -16,8 +16,9 @@ class MoviesController extends Controller
 
     public function detail($id){
         
-        if(Movies::where('id', $id)->exists()){
-            $result = Movies::where('id', $id)->first();
+        $result = Movies::where('id', $id)->first();
+
+        if($result->exists()){    
             return response()->json(['data' => $result, 'status' => 1], 200);
         }else{
             return response()->json(['message' => 'Movie not found', 'status' => 0], 404);
