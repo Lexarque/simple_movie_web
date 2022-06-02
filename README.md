@@ -25,8 +25,8 @@
 <h1>Database Design</h1>
 
 <ol>
-    <li><p style="font-size:22px; font-weight:bold;">*Filled DB are available inside the repo "imdb_clone.sql"</p></li>
-    <li><p style="font-size:22px; font-weight:bold;">*Seeders and Factories are also available for creating dummy data</p></li>
+    <li style="font-size:22px; font-weight:bold;">*Filled DB are available inside the repo "imdb_clone.sql"</li>
+    <li style="font-size:22px; font-weight:bold;">*Seeders and Factories are also available for creating dummy data</li>
 </ol>
 
 ![DB_IMDB_clone](https://user-images.githubusercontent.com/72777496/171546204-596763a8-b8fe-43e6-993c-0f99fca5cadc.png)</br>
