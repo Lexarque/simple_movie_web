@@ -3,6 +3,7 @@
 </hr>
 
 <h1>Simple IMDB Clone</h1>
+<h2>The main premise of this project</h2>
 
 <p>DB Design</p></br>
 
