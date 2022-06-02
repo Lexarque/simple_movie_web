@@ -24,6 +24,8 @@
 
 <h1>Database Design</h1>
 
-![DB_IMDB_clone](https://user-images.githubusercontent.com/72777496/171546204-596763a8-b8fe-43e6-993c-0f99fca5cadc.png)
+![DB_IMDB_clone](https://user-images.githubusercontent.com/72777496/171546204-596763a8-b8fe-43e6-993c-0f99fca5cadc.png)</br>
 
-<p></p>
+<p style="font-size:22px">*Filled DB are available inside the repo "imdb_clone.sql"</p>
+
+<h1>Requests using postman</h1>
