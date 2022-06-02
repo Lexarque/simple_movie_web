@@ -10,6 +10,11 @@
     For now, the feature of this project are Movies CRUD(I made the content of it as similar as the original IMDB site, you can also post the poster of the movie, images are stored in public/images/), User Authentication and Authorization using JWT(*Note this JWT is not the original Tymon JWT, I'm using the php-open-source that's compatible with laravel 9*), You're able to add favorites for a certain User.
 </p>
 
+<h1>Soon to be added feature</h1>
+<ol>
+    <li>Comment feature( A new role will be added on users table, so that only a certain people are able to comment on said movie(s) )</li>
+    <li>Automatic rating feature( rating column on movies table are  automatically calculated based on ratings of the comments posted )</li>
+</ol>
 
 
 
