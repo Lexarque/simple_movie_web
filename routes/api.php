@@ -36,7 +36,7 @@ Route::prefix('/movies')->group(function(){
     Route::delete('/delete/{id}', [MoviesController::class, 'delete']);
     Route::get('/view/all', [MoviesController::class, 'show']);
     Route::get('/view/title/{title}', [MoviesController::class, 'title']);
-    Route::get('/view/{id}', [MoviesController::class, 'detail']);
+    Route::get('/view/detail/{id}', [MoviesController::class, 'detail']);
 });
 
 Route::prefix('/favorite')->group(function(){
@@ -44,4 +44,6 @@ Route::prefix('/favorite')->group(function(){
     Route::get('/view/movies/{id}', [FavoriteController::class, 'by_movies']);
     Route::get('/view/user/{id}', [FavoriteController::class, 'by_users']);
     Route::post('/add', [FavoriteController::class, 'store']);
+    Route::post('/update/{id}', [FavoriteController::class, 'update']);
+    Route::post('/delete/{id}', [FavoriteController::class, 'delete']);
 });
