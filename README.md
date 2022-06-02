@@ -16,9 +16,7 @@
     <li>Automatic rating feature( rating column on movies table are  automatically calculated based on ratings of the comments posted )</li>
 </ol>
 
-
-
-<p>DB Design</p></br>
+<h1>Database Design</h1>
 
 ![DB_IMDB_clone](https://user-images.githubusercontent.com/72777496/171546204-596763a8-b8fe-43e6-993c-0f99fca5cadc.png)
 
